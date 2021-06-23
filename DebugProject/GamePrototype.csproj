@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="backGroundTexture.jpg" />
+    <None Remove="BloodShotTex.png" />
+    <None Remove="bunnyFace.png" />
+    <None Remove="DVA_00_Sprite.png" />
+    <None Remove="Gunshot.png" />
+    <None Remove="LaserShot.png" />
+    <None Remove="OrcDeathSprite.png" />
+    <None Remove="OrcEnemy.png" />
+    <None Remove="Ouch_Orc_01.png" />
+    <None Remove="Platform_01.png" />
+    <None Remove="Sombra.png" />
+    <None Remove="sombraBut.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="backGroundTexture.jpg" />
+    <Resource Include="BloodShotTex.png" />
+    <Resource Include="bunnyFace.png" />
+    <Resource Include="DVA_00_Sprite.png" />
+    <Resource Include="Gunshot.png" />
+    <Resource Include="LaserShot.png" />
+    <Resource Include="OrcDeathSprite.png" />
+    <Resource Include="OrcEnemy.png" />
+    <Resource Include="Ouch_Orc_01.png" />
+    <Resource Include="Platform_01.png" />
+    <Resource Include="Sombra.png" />
+    <Resource Include="sombraBut.jpg" />
+  </ItemGroup>
+
+</Project>

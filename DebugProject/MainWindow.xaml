@@ -1,0 +1,70 @@
+﻿<Window x:Class="DebugProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="944" Width="1904">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="77*"/>
+            <RowDefinition Height="155*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/backGroundTexture.jpg"/>
+        </Grid.Background>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Height="670" Foreground="#FFB21F1F" Margin="543,258,10,0" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="/Platform_01.png"/>
+            </TextBlock.Background><Run x:Name="Output" Text=""/><LineBreak/><Run/></TextBlock>
+        <Button Content="Attack_1" Margin="0,384,963,143" Click="Button_Click" Foreground="#FFDE3636" FontSize="24" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Attack_2" Margin="0,508,963,16" Click="Button_Click_1" Foreground="#FFDE3636" FontSize="24" Grid.Column="1" Grid.Row="1"/>
+        <Image x:Name="SombraSprite" HorizontalAlignment="Left" Height="197" Margin="707,126,0,0" VerticalAlignment="Top" Width="197" Source="/Sombra.png" Grid.Column="1" Grid.Row="1"/>
+
+        <Image x:Name="ShotSprite" HorizontalAlignment="Left" Height="91" Margin="883,131,0,0" VerticalAlignment="Top" Width="89" Source="/Gunshot.png" Grid.Column="1" Grid.Row="1"/>
+
+
+
+        <TextBlock x:Name="InfoSombra" HorizontalAlignment="Left" Margin="560,534,0,0" Text="" FontSize="30px" TextWrapping="Wrap" VerticalAlignment="Top" Width="1334" Height="76" Foreground="#FFDA2020" Grid.ColumnSpan="3" Background="Black" Grid.Row="1"/>
+        <TextBlock x:Name="DamageSombra" HorizontalAlignment="Left" Margin="372,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="55" Foreground="#FFEC1313" FontSize="16" Grid.Column="1" Grid.Row="1"/>
+        <Image x:Name="OrcEnemySprite" HorizontalAlignment="Right" Height="263" VerticalAlignment="Top" Width="249" Source="/OrcEnemy.png" Grid.Column="2" Margin="0,88,92,0" Grid.Row="1"/>
+        <Image x:Name="BloodSprite"  HorizontalAlignment="Left" Height="52" Margin="506,129,0,0" VerticalAlignment="Top" Width="89" Source="/BloodShotTex.png" RenderTransformOrigin="0.5,0.5" Grid.Column="2" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="156.118"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <!--<Button Name="SombraButton" Content="Button" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" Width="105" Height="52" Click="Button_Click_1"/> -->
+        <Image x:Name="DVA_Sprite" HorizontalAlignment="Left" Height="386" Margin="154,170,0,0" VerticalAlignment="Top" Width="510" Source="/DVA_00_Sprite.png" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="InputUserCommand"  Grid.Column="2" HorizontalAlignment="Center" Margin="0,50,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="76" Width="288" Grid.Row="1"/>
+        <TextBlock x:Name="SombraText" HorizontalAlignment="Left" Margin="206,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="27" Foreground="#FFD42121" FontSize="18" Grid.Column="1"/>
+        <CheckBox x:Name="DVAbox" Content="DVA" HorizontalAlignment="Left" Margin="8,159,0,0" VerticalAlignment="Top" Height="32" Width="54" Background="#FF1DBD0D" FontSize="16" Grid.Column="1"/>
+        <Image x:Name="BunnyForDva" HorizontalAlignment="Left" Height="134" Margin="0,191,0,0" VerticalAlignment="Top" Width="119" Source="/bunnyFace.png" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock  x:Name="OrcData" Grid.Column="1" HorizontalAlignment="Left" Margin="206,191,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="245" Width="261" Foreground="#FFD42121" Background="Black" FontSize="26" Grid.RowSpan="2" />
+        <Button  Content="Check Orc" Grid.Column="1" HorizontalAlignment="Left" Margin="289,508,0,0" VerticalAlignment="Top" Width="217" Click="Button_Click_2" Foreground="#FFD42121" Background="Black" Height="96" FontSize="26" Grid.Row="1" />
+        <TextBox x:Name="MessageBox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="192,49,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" Height="76" FontSize="30"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="462,49,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" Height="76" FontSize="30"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="728,49,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="76" FontSize="30"/>
+        <Image x:Name="OrcDeathSprite" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="341,251,0,0" Grid.Row="1" VerticalAlignment="Top" Width="249" Source="/OrcDeathSprite.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/OrcDeathSprite.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="OrcSprite" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="129" Margin="336,306,0,0" VerticalAlignment="Top" Width="130" Grid.RowSpan="2"/>
+
+    </Grid>
+
+    <!-- D.VA   -->
+
+
+
+</Window>

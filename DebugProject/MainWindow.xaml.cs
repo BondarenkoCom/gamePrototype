@@ -45,6 +45,7 @@ namespace DebugProject
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+        //сдедлать нажатие через кнопку клавиатуры
             SombraSprite.Visibility = Visibility.Visible;
             OrcEnemySprite.Visibility = Visibility.Visible;
             string DvaSup = "D.VA Help me!!!";

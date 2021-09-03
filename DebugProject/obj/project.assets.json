@@ -5800,19 +5800,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ABondarenko\\.nuget\\packages\\": {}
+    "C:\\Users\\BondarenkoAS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ABondarenko\\sourceMy\\GameProject\\DebugProject\\GamePrototype.csproj",
+      "projectUniqueName": "C:\\Users\\BondarenkoAS\\MyRepos\\PrototypeGame\\DebugProject\\GamePrototype.csproj",
       "projectName": "GamePrototype",
-      "projectPath": "C:\\Users\\ABondarenko\\sourceMy\\GameProject\\DebugProject\\GamePrototype.csproj",
-      "packagesPath": "C:\\Users\\ABondarenko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ABondarenko\\sourceMy\\GameProject\\DebugProject\\obj\\",
+      "projectPath": "C:\\Users\\BondarenkoAS\\MyRepos\\PrototypeGame\\DebugProject\\GamePrototype.csproj",
+      "packagesPath": "C:\\Users\\BondarenkoAS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BondarenkoAS\\MyRepos\\PrototypeGame\\DebugProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ABondarenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BondarenkoAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5820,8 +5820,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://tfs.hermesrussia.ru/DefaultCollection/_packaging/HRM/nuget/v3/index.json": {}
+        "http://buildsoft04:81/guestAuth/app/nuget/feed/NugetServer_id/TaxcomCustomNugetServer/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -5872,7 +5872,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamePrototype", "DebugProje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enemyLogic", "enemyLogic\enemyLogic.csproj", "{87E555D4-EB10-4F90-AE45-3648056C1C01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{BC527F05-7197-4E8D-BEC9-DE9EE1F27E57}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{87E555D4-EB10-4F90-AE45-3648056C1C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E555D4-EB10-4F90-AE45-3648056C1C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E555D4-EB10-4F90-AE45-3648056C1C01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC527F05-7197-4E8D-BEC9-DE9EE1F27E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC527F05-7197-4E8D-BEC9-DE9EE1F27E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC527F05-7197-4E8D-BEC9-DE9EE1F27E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC527F05-7197-4E8D-BEC9-DE9EE1F27E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

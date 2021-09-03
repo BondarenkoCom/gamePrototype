@@ -1,18 +1,18 @@
 ﻿GamePrototype
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\BondarenkoAS\MyRepos\PrototypeGame\DebugProject\obj\Debug\netcoreapp3.1\
+C:\Users\BondarenkoAS\MyRepos\PrototypeGame\DebugProject\obj\Release\netcoreapp3.1\
 GamePrototype
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\BondarenkoAS\MyRepos\PrototypeGame\DebugProject\App.xaml
 11407045341
 
-10-2133620371
+8-903259054
 214603736883
 MainWindow.xaml;
 
